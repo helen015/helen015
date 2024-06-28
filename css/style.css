@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 24px "Jost", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    padding: 0 24px;
+}
+
+.hero{
+ background: #EEEFF1;
+ padding: 24px 0 162px;   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    font-weight: 500;
+    font-size: 15px;
+    color: #1B1B1D;
+}
+
+.content{
+   display: flex; 
+}
+
+.content h1{
+    font-weight: 900;
+    line-height: 140px;
+    font-size: 124px;
+    color: #1B1B1D;
+}
+.content p{
+    max-width: 530px;
+    font-weight: 700;
+    line-height: auto;
+    font-size: 24px;
+    color: #64646A;
+}
+.btn{
+    display: inline-block;
+    background: #000;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin-top: 60px; 0px;
+    text-transform: uppercase;
+}
+
+.inform{
+    background: #F5F7FD;
+    padding: 150px 0 150px;
+    margin: 0px;
+}
+.inform .container{
+    justify-content: space-between;
+}
+.explore{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+}
+.explore h2{
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+}
+.explore p{
+    width: 701px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+.card-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.card-wrap li{
+    background: #fff;
+    border-radius: 30px;
+    height: 540px;
+    width: 390px;
+}
+.card-wrap h3{
+    width: 318px;
+    text-align: left;
+    padding: 40px 40px 10px;
+    font-size: 36px;
+}
+.card-wrap p{
+    background: #ffffff;
+    padding: 10px 40px 40px;
+}
+.card-wrap .photo{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+.card-wrap .wrap-btn{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banners{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 150px; */
+    padding: 200px 0 100px;
+}
+
+.banners .photo{
+    width: 680px;
+    height: 570px;
+    flex-grow: 1;
+}
+
+.banners .text{
+    width: 500px;
+    height: 440px;
+    flex-grow: 1;
+}
+
+.banners .text h2{
+    font-size: 64px;
+}
+
+.banners .text p{
+padding: 30px 0 30px;
+}
+
+.banners .photo img{
+    width: 100%;
+}
